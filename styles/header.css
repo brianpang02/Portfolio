@@ -1,0 +1,35 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  z-index: 1000;
+}
+
+
+header img {
+  margin: 20px;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+header div {
+  margin: 20px;
+  color: white;
+  cursor: pointer;
+  text-decoration: underline 2px black;
+  transition: text-decoration-color 0.135s;
+}
+
+header div:hover {
+  text-decoration-color: white;
+}

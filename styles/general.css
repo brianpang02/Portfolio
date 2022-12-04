@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, Arial;
+  background-color: black;
+  padding-top: 150px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
