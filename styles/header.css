@@ -31,10 +31,8 @@ header img {
   margin: 20px;
   color: white;
   cursor: pointer;
-  text-decoration: underline 2px black;
-  transition: text-decoration-color 0.135s;
 }
 
 .header-details:hover {
-  text-decoration-color: white;
+  text-decoration: underline 2px white;
 }

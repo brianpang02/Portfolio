@@ -5,6 +5,7 @@
   padding: 170px 0;
   width: 100%;
   background-color: #D63447;
+  margin-bottom: 50px;
 }
 
 .profile-picture {
@@ -50,7 +51,7 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1500px;
   margin: 130px 0;
 }
 
