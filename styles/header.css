@@ -12,6 +12,11 @@ header {
   z-index: 1000;
 }
 
+header.window-scroll {
+  background-color: #2D2926FF;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
 
 header img {
   margin: 20px;
@@ -22,7 +27,7 @@ header img {
   cursor: pointer;
 }
 
-header div {
+.header-details {
   margin: 20px;
   color: white;
   cursor: pointer;
@@ -30,6 +35,6 @@ header div {
   transition: text-decoration-color 0.135s;
 }
 
-header div:hover {
+.header-details:hover {
   text-decoration-color: white;
 }

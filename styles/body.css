@@ -130,7 +130,7 @@
 }
 
 .about-me-description img{
-  width: 500px;
+  max-width: 450px;
   height: 450px;
   border-radius: 50px;
   object-fit: cover;
@@ -239,32 +239,30 @@
   border-radius: 3px;
 }
 
-.skills-bar-java {
-  width: 60%;
-  padding: 3px 100px;
+.skills-bar-java, .skills-bar-html, .skills-bar-css, .skills-bar-js, .skills-bar-design {
+  padding: 3px 0px;
   background-color: #D63447;
   border-radius: 3px;
+}
+
+.skills-bar-java {
+  width: 60%;
 }
 
 .skills-bar-html {
   width: 65%;
-  padding: 3px 100px;
-  background-color: #D63447;
-  border-radius: 3px;
 }
 
 .skills-bar-css {
   width: 60%;
-  padding: 3px 100px;
-  background-color: #D63447;
-  border-radius: 3px;
+}
+
+.skills-bar-js {
+  width: 40%;
 }
 
 .skills-bar-design {
   width: 55%;
-  padding: 3px 100px;
-  background-color: #D63447;
-  border-radius: 3px;
 }
 
 .get-in-touch-container {
@@ -359,12 +357,11 @@
 }
 
 .get-in-touch-right {
-  flex: 1;
   display: flex;
   flex-direction: column;
   
   margin-top: 10px;
-  margin-left: 300px;
+  margin-left: 50px;
 }
 
 .details {
@@ -382,6 +379,36 @@
   font-weight: 400;
 }
 
+@media screen and (max-width: 880px) {
+  .introduction {
+    display: grid;
+    align-items: center;
+    text-align: center;
+  }
 
+  .profile-picture {
+    margin: 20px auto;
+  }
+  
+  .projects-redirect {
+    flex-direction: column;
+    max-width: 500px;
+  }
+
+  .about-me-description {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .get-in-touch-bottom {
+    flex-direction: column;
+  }
+
+  .get-in-touch-right {
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+
+}
 
 
